@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'Poppin-SemiBold';
-  src: url('/resources/Poppins/Poppins-SemiBold.ttf') format('truetype');
+  src: url('resources/Poppins/Poppins-SemiBold.ttf') format('truetype');
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Poppin-Regular';
-  src: url('/resources/Poppins/Poppins-Regular.ttf') format('truetype');
+  src: url('resources/Poppins/Poppins-Regular.ttf') format('truetype');
   font-display: swap;
 }
 
