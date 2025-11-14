@@ -90,3 +90,13 @@ input {
 .author-info a {
   text-decoration: none;
 }
+
+@media (max-width: 640px) {
+  header > h1 {
+    font-size: 32px;
+  }
+
+  header > p {
+    font-size: 16px;
+  }
+}
