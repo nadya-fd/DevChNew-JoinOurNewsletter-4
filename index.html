@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Join our newsletter page" />
 
     <link
       rel="icon"
@@ -10,52 +11,26 @@
       type="image/x-icon"
       sizes="96x96"
     />
+    <link rel="stylesheet" href="/style.css" />
 
     <title>Join Our Newsletter | devChallenges.io</title>
-
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
   </head>
   <body>
-    <!-- 
-    Join our newsletter
- 
-    Keep up with our latest collections, exclusive deals, and special offers! We introduce a new collection every week, so stay tuned to snag the hottest items just for you.
- 
-    Enter your email address
- 
-    Subscribe now
- 
-    Your email is 100% confidential and won’t send you any spam.
-
-    -->
-
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </div>
+    <header>
+      <img src="resources/logo.svg" alt="" />
+      <h1>Join our newsletter</h1>
+      <p>
+        Keep up with our latest collections, exclusive deals, and special
+        offers! We introduce a new collection every week, so stay tuned to snag
+        the hottest items just for you.
+      </p>
+    </header>
+    <main>
+      <form action="index.html" class="signup-form">
+        <input type="email" id="emailInput" value="Enter your email address"></input>
+        <button type="submit" id="subscribeBtn">Subscribe now</button>
+        <p>Your email is 100% confidential and won’t send you any spam.</p>
+      </form>
+    </main>
   </body>
 </html>
